@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+//function to caculate average 
+double average (int scores[], int size){
+    int sum =0;
+    for (int i =0; i < size; i++){
+        sum +=scores[i];
+    }
+return (double) sum/size; //return average
+}
+
+int main(){
+
+int userImput;
+cout << "Enter the size of an array: " << endl;
+cin >> userImput;
+
+int scores [userImput] = {90,85,70,95,100};
+cout << "Average" << average(scores,5) << endl;
+
+
+
+
+}
