@@ -1,0 +1,74 @@
+
+//example 1
+/*
+// Do we always need to write template? 
+//typename is gerneral?
+
+template <typename T>
+T maxNum (T a, T b){
+    return (a > b ) ? a : b;
+}
+
+
+// is coming from type T 
+int main(){
+int intMax = maxNum(5,10);
+double doubleMax = maxNum (2.5, 11.6);
+
+cout << "Integer Max: " << intMax << endl;
+
+}*/
+
+//Example 2
+/*
+template <typename T>
+T  mathFunction (T a, T b, T c){
+    return a+b-c;
+}
+
+int main(){
+    int intCalculation = mathFunction(20,30,40);
+    double doublealculation = mathFunction(11.11,22.22,33.00);
+cout << "Intger= " << intCalculation << endl;
+cout << "Double= " <<doublealculation << endl;
+
+}*/
+
+
+#include <iostream> 
+#include <vector>
+using namespace std;
+
+int main(){
+
+//verctor initilazation 
+vector <double> prices ={1,2,3,4,5};
+
+//add values to the end of the 'prices' vector
+prices.push_back(10); 
+prices.push_back(50); 
+prices.push_back(11); 
+
+
+//accesing and modifying 
+
+double total= prices[0] +prices[1] + prices[2];
+cout << "Total = $" << total << endl;
+
+
+//vectors don't have the direct function to add to the front. This is a dynamic arrat and adding to end 
+// end is more efficient to add to the front you will use inester function and then find the beginng
+// of the vecotr and then add the value 
+
+prices.insert(prices.begin(),20);
+
+cout << "First item: " << prices.front() << endl;
+cout << "last time: " << prices.back() << endl;
+cout << " Total size of my vercotr (prices); " << prices.size() << endl;
+
+double total2 = prices[0]+ prices[1] + prices[2];
+cout << "Total = $" <<total2 << endl;
+
+
+
+}
