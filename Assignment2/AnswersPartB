@@ -1,0 +1,14 @@
+Part B - Short Reflection
+Answer briefly in your own words (2-4 sentences each):
+• What is Big-O Notation? Explain it simply (no math needed).
+
+Big-O Notation is a mathematical concept which allows us to describe an algorithm's performance, specifically its running time or space complexity. Also, it highlights the amount of data that would increase in the algorithm. In addition, it can help in deciding whether a particular  algorithm could work efficiently. 
+
+• Why is Big-O important for programmers? Give one real-life example (e.g., searching names in a class roster).
+
+Big-O is important for programmers because it evaluates the efficiency of algorithms and may allow for better evaluation of which algorithms are more efficient. Also, it allows for the programmer to pick the best algorithm for a problem and save them time. A real life example, is when you open up gmail, there is thousands of emails being sent to you daily, you can search one by one in order to find the email you are looking for or you can type in the search engine keywords that you remember the email having, and it would pull out emails with similar keywords. This saves you more time rather than having to read every email. 
+
+
+• From your scenario (Part A):
+• Why was vector a better choice than array for this problem?
+Using a vector was a better choice than an array for this problem because it allows us to insert direct values and remove values as well. In addition, it allowed us to add dishes and remove a dish that was not needed in the menu which allows the vector to grow and shrink when needed. Also, vectors are dynamically compared to arrays which have fixed values.  
