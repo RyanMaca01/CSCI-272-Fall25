@@ -1,0 +1,5 @@
+100 Sam 0
+101 Nayeon -5000
+102 Ryan 2000
+103 Jackie  2
+104 Rosa -10000
